@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="html, css, komarov" />
+  <meta name="description" content="Это личный блог Сергея Комарова" />
+  <title>Study html</title>
+  <link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>Сергей Комаров</h1>
+    <p>
+      На этой страничке просто изучаю и практикую базовые знания по
+      <strong>HTML</strong> и <strong>CSS</strong>
+    </p>
+    <p>
+      Этот текст просто здесь для базового заполнения параграфа:
+      <em>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis,
+        expedita.</em>
+    </p>
+    <hr />
+    <h3>Тут решил выложить несколько фотографий со своего отпуска</h3>
+    <div class="fotos">
+      <div><img src="images/IMG_1.jpg" alt="фото с отпуска 1" /></div>
+      <div><img src="images/IMG_2.jpg" alt="фото с отпуска 2" /></div>
+      <div><img src="images/IMG_3.jpg" alt="фото с отпуска 3" /></div>
+    </div>
+
+    <div class="card">
+      <h3>Далее я решил составить список каких-то особенностей про себя</h3>
+      <ul class="list">
+        <li>
+          я неплохо играю в футбол, так что, если что, можете меня позвать и мы
+          попинаем мячик
+        </li>
+        <li>
+          ещё я умею играть в шахматы, можем сыграть булет, блиц или рапид :)
+        </li>
+        <li>
+          а ещё можно просто куда-нибудь съездить и посмотреть на какую-нибудь
+          достопримечательность
+        </li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>
+        Далее приведу таблицу, например, футбольные команды за которые я играл
+      </h3>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Название команды</th>
+            <th>Лучшее достижение</th>
+            <th>Года</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Звезда</td>
+            <td>3 место в Чемпионате РМЭ в высшей лиге</td>
+            <td>2000 - 2019</td>
+          </tr>
+          <tr>
+            <td>Связист</td>
+            <td>2 место среди телекоммуникационных предприятий в России</td>
+            <td>2006 - 2013</td>
+          </tr>
+          <tr>
+            <td>Зеленый ключ</td>
+            <td>2 место в Чемпионате РМЭ по мини-футболу</td>
+            <td>2011 - 2012</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <br />
+    <a href="https://kosenik.github.io/about_me/" target="_blank">А это ссылочка на мое резюме</a>
+    <br />
+    <hr />
+
+
+    <form action="" class="form">
+      <h3>Связаться со мной</h3>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="name">Ваше имя:</label>
+          <input type="text" id="name" placeholder="Введите свое имя" />
+        </div>
+        <div class="form-group">
+          <label for="email">Ваш электронный ящик:</label>
+          <input type="email" id="email" placeholder="Введите свой email" />
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Ваше сообщение:</label>
+        <textarea id="message" cols="20" rows="5" placeholder="Напиши что-нибудь здесь..."></textarea>
+      </div>
+      <input class="btn" type="submit" value="Отправить">
+    </form>
+  </div>
+</body>
+
+</html>
